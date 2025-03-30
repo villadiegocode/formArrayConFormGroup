@@ -78,7 +78,7 @@
           <td>{{ rowData.value.price | currency  }}</td>
           <td>
             <div class="flex w-full">
-              <p-inputnumber  inputId="locale-user" [minFractionDigits]="2" formControlName="quantity" (onBlur)="caculateTotals()" />
+              <p-inputnumber  inputId="locale-user" [minFractionDigits]="2" formControlName="quantity" (onBlur)="caculateTotals()" [autofocus]="true" />
             </div>
           </td>
           <td>
